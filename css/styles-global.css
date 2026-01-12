@@ -12,10 +12,10 @@ body {
 
 .max-width {
 	width: 100%;
-	max-width: 1200px;
+	max-width: 1064px;
 }
 
 .padding-lateral {
-	padding-left: 200px;
-	padding-right: 200px;
+	padding-left: 100px;
+	padding-right: 100px;
 }

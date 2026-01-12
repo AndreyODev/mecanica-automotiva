@@ -1,7 +1,7 @@
 #header {
 	position: relative;
 	width: 100%;
-	padding-top: 70px;
+	padding-top: 100px;
 	min-height: 100vh;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
@@ -24,52 +24,42 @@
 	color: #ffffff;
 }
 
-h1 {
-	margin-top: 100px;
-	font-size: var(--font-64);
+#header__left h1 {
+	font-size: 52px;
 }
 
-#header__left .h1 span {
+#header__left h1 span {
 	color: var(--cor-secondary);
 }
 
-p {
-	margin-top: 30px;
-	font-size: var(--font-20);
+#header__left p {
+	margin-top: 20px;
+	font-size: 1.2rem;
 }
 
-.btn.destaque {
-	border: 1px solid red;
-	display: inline-block;
-	margin: 20px 0px;
-	padding: 15px 50px;
-	color: #ffffff;
-	background: var(--cor-secondary);
-	border-radius: 10px;
-	font-size: var(--font-20);
-}
 .btn {
-	border: 1px solid red;
 	display: inline-block;
-	margin: 20px 20px;
-	padding: 15px 50px;
+	margin-top: 10px;
+	padding: 15px 20px;
 	color: var(--cor-primary);
 	background: #ffffff;
 	border-radius: 10px;
 	font-size: var(--font-20);
 }
 
-.indicadores {
-	display: flex;
+.btn.destaque {
+	background: var(--cor-secondary);
+	font-size: var(--font-20);
+	color: #ffffff;
 }
 
 #header__right {
 	position: absolute;
-	width: 450px;
-	height: 450px;
+	width: 400px;
+	height: 400px;
 	border-radius: 50%;
 	top: 50%;
-	right: 12%;
+	right: 8%;
 	transform: translateY(-50%);
 	z-index: 2;
 	background: url("../../assets/revisao.jpeg") no-repeat center center;
@@ -77,8 +67,9 @@ p {
 }
 
 .indicadores {
+	display: flex;
 	margin-top: 50px;
-	gap: 100px;
+	gap: 30px;
 }
 
 .indicadores .indicador {
