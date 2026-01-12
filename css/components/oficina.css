@@ -1,0 +1,66 @@
+#oficina {
+	padding-top: 100px;
+	min-height: 100vh;
+	background: var(--cor-primary);
+}
+
+#oficina h2,
+#oficina h3,
+#oficina p {
+	text-align: center;
+}
+
+#oficina h2 {
+	color: #ffffff;
+	margin-bottom: 5px;
+	font-size: var(--font-36);
+}
+#oficina h3 {
+	text-transform: uppercase;
+	color: var(--cor-secondary);
+}
+#oficina p {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: #ffffff;
+}
+.imagens {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 20px;
+}
+
+/* imagem grande */
+.img-grande {
+	height: 370px;
+}
+
+.img-grande img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 10px;
+}
+
+/* grid das pequenas */
+.img-pequena {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	gap: 20px;
+	height: 370px;
+}
+
+/* wrappers das imagens pequenas */
+.img-pequena > div {
+	height: 100%;
+}
+
+/* imagens pequenas */
+.img-pequena img {
+	width: 100%;
+	height: 175px;
+	object-fit: cover;
+	border-radius: 10px;
+	display: block;
+}
