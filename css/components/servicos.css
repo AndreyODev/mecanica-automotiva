@@ -4,19 +4,19 @@
 	text-align: center;
 	background: #ffffff;
 }
-.servicos__content .h3 {
-	margin-bottom: 20px;
+.servicos__content h3 {
+	margin-bottom: 10px;
 	text-transform: uppercase;
 	color: var(--cor-secondary);
 }
-.servicos__content .h2 {
-	margin-bottom: 20px;
+.servicos__content h2 {
+	margin-bottom: 10px;
 	color: var(--cor-primary);
 	font-size: var(--font-36);
 }
 
 .servicos__content p {
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 	color: #000000;
 }
 .content-cards {
@@ -26,8 +26,8 @@
 }
 
 .card {
-	width: 400px;
-	height: 460px;
+	width: 360px;
+	height: 380px;
 	border-radius: 10px;
 	background: #ffffff;
 	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
@@ -37,7 +37,7 @@
 }
 .card img {
 	width: 100%;
-	height: 200px;
+	height: 180px;
 	object-fit: cover;
 	border-radius: 10px 10px 0 0;
 }
@@ -50,8 +50,8 @@
 
 .card h3 {
 	color: var(--cor-primary);
-	margin-top: 20px;
-	margin-bottom: 30px;
+	margin-top: 10px;
+	margin-bottom: 20px;
 }
 .card p {
 	color: #000000;
