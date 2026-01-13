@@ -81,3 +81,96 @@
 	top: 5px;
 	right: 2px;
 }
+
+/* RESPONSIVIDADE */
+
+/* Tablet (até 1024px) */
+@media (max-width: 1024px) {
+	.conteiner {
+		padding: 60px 20px;
+	}
+
+	.imagem {
+		width: 380px;
+		height: 380px;
+		margin-right: 20px;
+	}
+
+	.conteudo {
+		width: 55%;
+		margin-left: 20px;
+	}
+
+	.titulo {
+		font-size: 2.1rem;
+	}
+}
+
+/* Tablets e celulares grandes (até 768px)  */
+@media (max-width: 768px) {
+	.conteiner {
+		flex-direction: column;
+		text-align: center;
+		padding: 60px 20px;
+	}
+
+	.imagem {
+		width: 100%;
+		max-width: 350px;
+		height: 350px;
+		margin: 0 auto 30px;
+	}
+
+	.sobre-destaque {
+		width: 130px;
+		height: 90px;
+		bottom: 15px;
+		right: 15px;
+	}
+
+	.conteudo {
+		width: 100%;
+		margin: 0;
+	}
+
+	.paragrafo {
+		text-align: justify;
+	}
+
+	.itens {
+		justify-content: center;
+	}
+
+	.item {
+		width: 100%;
+	}
+}
+
+/* Celulares (até 480px) */
+@media (max-width: 480px) {
+	.imagem {
+		height: 280px;
+	}
+
+	.titulo {
+		font-size: 1.8rem;
+	}
+
+	.paragrafo {
+		font-size: 0.95rem;
+		text-align: justify;
+	}
+
+	.sobre-destaque {
+		width: 110px;
+		height: 80px;
+	}
+
+	.sobre-destaque span {
+		font-size: 16px;
+	}
+
+	.sobre-destaque i {
+		font-size: 32px;
+	}
+}
