@@ -14,7 +14,12 @@
 	flex-basis: 25%;
 	font-size: var(--font-20);
 	color: var(--cor-primary);
-	text-align: center;
+	font-weight: 700;
+}
+.logo i {
+	margin-right: 10px;
+	color: var(--cor-secondary);
+	font-size: 20px;
 }
 
 #nav img {
@@ -31,6 +36,7 @@
 #nav ul a {
 	font-size: var(--font-20);
 	color: var(--cor-primary);
+	font-weight: 700;
 }
 
 .sombra {
