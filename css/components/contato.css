@@ -4,7 +4,6 @@
 	padding: 100px 0;
 }
 
-/* CABEÇALHO */
 .contato-cabecalho {
 	text-align: center;
 	margin: 0 auto;
@@ -32,8 +31,6 @@
 	font-size: 18px;
 	color: #000;
 }
-
-/* LISTA DE CONTATOS */
 #contato-list {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
@@ -42,7 +39,6 @@
 	margin: 60px auto 0;
 }
 
-/* CARD */
 .contato-card {
 	display: flex;
 	flex-direction: column;
@@ -56,7 +52,6 @@
 	transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* HOVER */
 .contato-card:hover {
 	transform: translateY(-6px);
 	box-shadow: 0 14px 35px rgba(0, 0, 0, 0.12);
@@ -74,9 +69,7 @@
 	line-height: 1.6;
 }
 
-/* =========================
-   RESPONSIVIDADE
-========================= */
+/* RESPONSIVIDADE */
 
 @media (max-width: 1024px) {
 	#contato-list {
