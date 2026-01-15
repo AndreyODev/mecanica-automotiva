@@ -1,9 +1,3 @@
-const nav = document.getElementById("nav");
-
-window.addEventListener("scroll", function () {
-	nav.classList.toggle("sombra", window.scrollY > 50);
-});
-
 // NAVBAR - MENU
 const menuToggle = document.getElementById("menuToggle");
 const menuMobile = document.getElementById("menuMobile");
